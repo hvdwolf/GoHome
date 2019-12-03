@@ -1,14 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 26
-    buildToolsVersion "26.0.1"
+    compileSdkVersion 28
     defaultConfig {
         applicationId "org.hvdw.gohome"
         minSdkVersion 23
-        targetSdkVersion 26
+        targetSdkVersion 28
         versionCode 1
-        versionName "1"
+        versionName "1.0.1"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
@@ -17,10 +16,6 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
-}
-
-repositories {
-    jcenter();
 }
 
 dependencies {
